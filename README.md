@@ -6,7 +6,6 @@ Getting and Cleaning Data Course Project README
 - Version 2.0
 - osiPete
 - some guy studing MOOC data science
-- www.datascienceissurprising.com
 
 Background
 ----------

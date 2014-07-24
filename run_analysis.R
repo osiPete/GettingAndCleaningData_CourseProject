@@ -1,8 +1,9 @@
 # preliminaries
-# since we don't want to upload the original raw data file to github, i'm going to assume you don't
-# ... downloading from the course site if you want to run this again
+# we are not uploading the raw data to github
+# ... so download from source ** SKIP THIS IS YOU ARE USING DATA ALREADY
+# ... IN YOUR WORKING DIRECTORY. I KNOW THE SUBMISSION SAYS TO
 
-# download and unzip the file
+# download and unzip the file if you need it
 if(!file.exists("./data")){dir.create("./data")}
 fileUrl1="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # this is the downloaded file name, we know this by doing in manually the first time :)
@@ -11,6 +12,10 @@ download.file(fileUrl1,destfile=paste0("./data/",fileName),method="curl")
 unzip(paste("./data/",fileName,sep=""),exdir="./data/")
 # unzip extracts a dir
 dir<-"./data/UCI HAR Dataset/"
+
+# use this dir if running data from your working directory (per the assessment
+# ... submission criteria)
+# dir <- "./"
 
 # import row and variable long names for both sets
 activity.names<-read.table(paste0(dir,"activity_labels.txt"))

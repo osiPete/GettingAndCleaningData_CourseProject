@@ -86,7 +86,7 @@ The first 2 variables, Subject and Activity are factors to identify the rows. Al
 
 Raw Data description
 --------------------
-The following is an amended excerpt from the raw data file features_info.txt. Please note, as described above, the tidy_data.txt file is an average by grouping of these values.
+The following is an amended excerpt from the raw data file features_info.txt. Please note, as described above, the tidy_data.txt file is an Average by grouping of these values. Please see the README.md for the source of this excerpt.
 
 **Start features_info.txt excerpt**  
 Feature Selection 
@@ -127,7 +127,7 @@ The set of variables that were estimated from these signals are:
 
 Code Map
 -------
-map of tidy_data.txt variable labels back to raw file label, variabl name and source file
+map of tidy_data.txt variable labels back to raw file label, variable name and source file. * may equal 'train' or 'test' in column 'raw src file'.
 
 ```
         tidy_data.txt label                   raw label raw variable  raw src file
