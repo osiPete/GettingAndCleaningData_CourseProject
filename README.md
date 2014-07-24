@@ -26,6 +26,8 @@ The script produces tidy_data.txt. For each record it is provided:
 -------------------------------------------------------------------
 
 - Average of mean and std variables as described in the code book. The Average is taken for each of these variables after first grouping by Subject and Activity.
+- *Note that other variables with "mean" in name are excluded because they are
+"derived" variables from the other variables. ie; not tidy data!*
 - An identifier variable of the Subject who carried out the experiment.
 - An description variable of the Activity being undertaken.
 
