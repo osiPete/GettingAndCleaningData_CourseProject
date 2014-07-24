@@ -15,11 +15,11 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Focus
 -----
 - This tidy_data.txt is a summary of the above dataset, cleaning and aggregating the raw data into a user friendly single table.
-- The assignment itself that resulted in all this is described here;
+- The assignment itself that resulted in all this is described here:
 https://class.coursera.org/getdata-005/human_grading/view/courses/972582/assessments/3/submissions
 - A handy discussion forum with TA pointers can be found here:
 https://class.coursera.org/getdata-005/forum/thread?thread_id=23
-- The script itself tries in best efforts to follow Hadley's tidy data ta principles;
+- The script itself tries in best efforts to follow Hadley's tidy data ta principles:
 http://vita.had.co.nz/papers/tidy-data.pdf
 
 The script produces tidy_data.txt. For each record it is provided:
